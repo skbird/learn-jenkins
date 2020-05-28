@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.shengkai.learnjenkins</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>learn_jenkins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>learn_jenkins</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -38,6 +38,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>learn_jenkins</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
